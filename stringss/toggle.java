@@ -5,10 +5,7 @@ public class toggle {
         String s1="pepCODinG";
         for(int i=0;i<s1.length();i++){
             char ch=s1.charAt(i);
-            
-            if(){
-
-            }
+            char at(0);
         }
     }
 }
