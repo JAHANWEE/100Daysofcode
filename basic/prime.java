@@ -19,5 +19,6 @@ public class prime {
             div++;
         }
         System.out.println("Prime");
+        break;
     }
 }
