@@ -11,14 +11,20 @@ public class prime {
     }
     public static void  prime(int n){
         int div=2;
+        int count=0;
         while(div*div<=n-1){
             if(n%div==0){
-                System.out.println("Non-Prime");
+               count++;
                 break;
+                
             }
             div++;
         }
+        if(count==0){
         System.out.println("Prime");
-        break;
+        }else{
+            System.out.println("Non-prime");
+        }
+        
     }
 }
