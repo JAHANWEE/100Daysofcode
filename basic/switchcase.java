@@ -45,7 +45,6 @@ public class switchcase {
                 System.out.println("December");
             }
             default->System.out.println("Not valid");
-
          }
     }
 }
