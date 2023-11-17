@@ -6,7 +6,7 @@ public class switchcase {
     public static void main(String [] args){
         Scanner scn = new Scanner(System.in);
         int month = scn.nextInt();
-
+    //   advanced switch case
          switch(month){
             case 1->{
                 System.out.println("January");
@@ -44,6 +44,7 @@ public class switchcase {
              case 12->{
                 System.out.println("December");
             }
+            default->System.out.println("Not valid");
 
          }
     }
