@@ -11,6 +11,7 @@ public class loopss {
         }
 
         System.out.println(i);
+        System.out.println(i+1);
 
     }
 
