@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class arenthesis {
     public static void main(String[] args){
-        String str="(((()))()()()";
+        String str="()()()()(";
         Stack <Character> sb = new Stack<>();
         int count=0;
         for(int i=0;i<str.length();i++){
