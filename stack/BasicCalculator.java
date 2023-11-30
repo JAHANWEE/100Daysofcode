@@ -1,7 +1,7 @@
 package stack;
 import java.util.Stack;
 
-public class BasicCalculator {
+public class BasicCalculators {
     public static int calculate(String s) {
         Stack<Integer> stack = new Stack<>();
         int num = 0;
@@ -31,8 +31,9 @@ public class BasicCalculator {
                 result += stack.pop(); // result outside parentheses
             }
             int r = result+sign*num;
-            return r;
+            
         }
+        return r;
     }
 
     public static void main(String[] args) {
