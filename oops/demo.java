@@ -1,15 +1,16 @@
 package oops;
 class calculator{
-    int a=0;
+    int a=0;       //instance variable
     public int add(){
         System.out.println("in add");
         return 5;
     }
-    public int add1(int a , int b){
-        int r = a+b;
-        System.out.println(r);
-        return r;
+    public int add1(int a , int b){   //a, b are local variable
+        // int r = a+b;
+        // System.out.println(r);
+        return a+b;
     }
+
 }
 public class demo {
     public static void main(String[] args){
