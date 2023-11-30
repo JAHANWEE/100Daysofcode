@@ -1,7 +1,7 @@
 package stack;
 import java.util.Stack;
 
-public class BasicCalculators {
+public class BasicCalculator {
     public static int calculate(String s) {
         Stack<Integer> stack = new Stack<>();
         int num = 0;
