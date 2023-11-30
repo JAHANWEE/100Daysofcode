@@ -7,6 +7,7 @@ public class BasicCalculator {
         int num = 0;
         int sign = 1;
         int result = 0;
+        int r =0;
 
         for (char c : s.toCharArray()) {
             if (Character.isDigit(c)) {
@@ -30,7 +31,7 @@ public class BasicCalculator {
                 result *= stack.pop(); // sign
                 result += stack.pop(); // result outside parentheses
             }
-            int r = result+sign*num;
+             r = result+sign*num;
             
         }
         return r;
