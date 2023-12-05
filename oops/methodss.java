@@ -6,6 +6,7 @@ class Mobile{
     static String name;
     static{
         name="Phone";
+        System.out.println("IN STATIC BLOCK");  
     }
     public Mobile(){
         brand ="";
@@ -22,10 +23,13 @@ public class methodss {
         obj.price=1300;
         obj.name="Smartphone";
         
-        Mobile obj = new Mobile();
-        obj.brand ="Apple";
-        obj.price=1300;
-        obj.name="Smartphones";
+        Mobile obj1 = new Mobile();
+        obj1.brand ="Samsung";
+        obj1.price=1200;
+        obj1.name="Smartphone";
+
+        obj.show();
+        obj1.show();
         
     }
 }
