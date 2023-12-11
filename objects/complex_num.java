@@ -11,7 +11,7 @@ class ComplexNumber{
       imaginary=imag;
     }
     void print(){
-         System.out.println(real+" + "+imaginary+"i");
+         System.out.println(this.real+" + "+this.imaginary+"i");
     }
 
     //add method
