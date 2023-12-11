@@ -14,7 +14,14 @@ public class bigint {
 
         System.out.println(a.subtract(b));
         System.out.println(a.multiply(b));
+        
+        int x =50;
+        BigInteger y = new BigInteger(x+""); //typecasted to string by adding empty string to it
+        System.out.println(y);
 
-         
+        //bigInteger to String
+         BigInteger b2 = new BigInteger("8797989");
+         int v = b2.intValue();
+         System.out.println(v);
     }
 }
