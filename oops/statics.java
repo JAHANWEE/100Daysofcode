@@ -14,16 +14,14 @@ public class statics {
         Mobile obj = new Mobile();
         obj.brand ="Apple";
         obj.price=1300;
-        obj.name="Smartphone";
+        Mobile.name="Smartphone";
 
         Mobile obj1 = new Mobile();
         obj1.brand ="Samsung";
         obj1.price=1200;
-        obj1.name="Smartphone";
+        Mobile.name="Smartphone";
         
-        Mobile.name ="phone";  // should be called with class name
-
-
+        Mobile.name ="phone";  // should be called with class name        
         obj.show();
         obj1.show();
     }
