@@ -9,7 +9,7 @@ class Mobiles{
          System.out.println(this.brand+" : "+this.price+" ; "+this.name);
     }
     public static void show1(){
-        System.out.println("in static method");
+        System.out.println(this.brand+" : "+this.price+" ; "+this.name);
     }
 }
 public class staticm {
