@@ -6,10 +6,10 @@ class Mobiles{
     static String name;
 
     public void show(){
-         System.out.println(this.brand+" : "+this.price+" ; "+this.name);
+         System.out.println(brand+" : "+price+" ; "+name);
     }
-    public static void show1(){
-        System.out.println(this.brand+" : "+this.price+" ; "+this.name);
+    public static void show1(Mobiles obj2){
+        System.out.println(obj2.brand+" : "+obj2.price+" ; "+Mobiles.name);
     }
 }
 public class staticm {
@@ -27,6 +27,6 @@ public class staticm {
         obj.show();;
         obj1.show();
 
-        Mobiles.show1();
+        Mobiles.show1(obj);
     }
 }

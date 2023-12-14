@@ -6,7 +6,7 @@ class Mobile{
     static String name;   //common to all objects , if you change value then value of all objecs will change 
 
     public void show(){
-        System.out.println(this.brand+" : "+this.price+" ; "+this.name);
+        System.out.println(this.brand+" : "+this.price+" ; "+Mobile.name);
     }
 }
 public class statics {
