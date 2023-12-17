@@ -9,10 +9,11 @@ package oops;
 // }
 public class inherit {
     public static void main(String[] args){
-        calc objs = new advcalc();
+        advcalc objs = new advcalc();
         int r1 = objs.add(7,9);
         int r2 = objs.sub(7,9);
-
-        System.out.println(r1+" "+r2);
+        int r3 = objs.mul(7,9);
+        int r4 = objs.div(9,3);
+        System.out.println(r1+" "+r2+" "+r3+" "+r4);
     }
 }
