@@ -9,7 +9,7 @@ package oops;
 // }
 public class inherit {
     public static void main(String[] args){
-        calc objs = new calc();
+        calc objs = new advcalc();
         int r1 = objs.add(7,9);
         int r2 = objs.sub(7,9);
 
