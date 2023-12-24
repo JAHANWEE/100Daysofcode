@@ -10,6 +10,6 @@ public class constant {
 
         int a=10;
         int b =5;
-        System.out.println(a/(float)b);   //2.0
+        System.out.println(a/(float)b);;   //2.0
     }
 }
