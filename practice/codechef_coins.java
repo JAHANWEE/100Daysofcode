@@ -10,8 +10,11 @@ link:https://www.codechef.com/submit/MINCOINSREQ
   
  
  */
+ 
 
-class Codechef
+import java.util.Scanner;
+
+class codechef_coins
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
