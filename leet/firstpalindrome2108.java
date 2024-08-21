@@ -1,4 +1,4 @@
-
+package leet;
 import java.util.Scanner;
 public class firstpalindrome2108 {
     public static void main(String[] args){
